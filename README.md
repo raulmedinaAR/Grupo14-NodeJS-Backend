@@ -16,9 +16,9 @@
 - npm install express --save
 - npm install mysql2 --save
 
-## Backend URLs
-- [GET] Indumentaria femenina: http://127.0.0.1:3000/products/women
-- [GET] Indumentaria masculina: http://127.0.0.1:3000/products/men
-- [GET] Promociones: http://127.0.0.1:3000/promotions
-- [POST] Agregar suscripción: http://127.0.0.1:3000/subscription/add
-- [DELETE] Eliminar suscripción: http://127.0.0.1:3000/subscription/del
+## Backend Routes
+- [GET] Indumentaria femenina: /products/women
+- [GET] Indumentaria masculina: /products/men
+- [GET] Promociones: /promotions
+- [POST] Agregar suscripción: /subscription/add
+- [DELETE] Eliminar suscripción: /subscription/del
