@@ -21,6 +21,7 @@ CREATE TABLE `grupo14`.`products` (
     `genderId` int NOT NULL,
     `mainImage` varchar(1000) NOT NULL,
     `secondaryImage` varchar(1000) NOT NULL,
+    `stock` INT NOT NULL DEFAULT 0,
     PRIMARY KEY (`id`),
     FOREIGN KEY (`genderId`) REFERENCES Gender(`id`)
 );
