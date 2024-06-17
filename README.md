@@ -13,12 +13,12 @@
 [Visita nuestra versión navegable](PENDIENTE!!!)
 
 ## Módulos utilizados
-- npm install express
-- npm install mysql2
+- npm install **express**
+- npm install **mysql2**
 
 ## Backend Routes
-- [GET] Indumentaria femenina: /products/women
-- [GET] Indumentaria masculina: /products/men
-- [GET] Promociones: /promotions
-- [POST] Agregar suscripción: /subscription/add
-- [DELETE] Eliminar suscripción: /subscription/del
+- **[GET]** Indumentaria femenina: /products/women
+- **[GET]** Indumentaria masculina: /products/men
+- **[GET]** Promociones: /promotions
+- **[POST]** Agregar suscripción: /subscription/add
+- **[DELETE]** Eliminar suscripción: /subscription/del
