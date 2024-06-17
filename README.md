@@ -13,8 +13,8 @@
 [Visita nuestra versión navegable](PENDIENTE!!!)
 
 ## Módulos utilizados
-- npm install express --save
-- npm install mysql2 --save
+- npm install express
+- npm install mysql2
 
 ## Backend Routes
 - [GET] Indumentaria femenina: /products/women
