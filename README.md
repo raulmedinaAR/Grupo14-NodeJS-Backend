@@ -46,13 +46,13 @@ npm install jsonwebtoken
 | **DELETE** | Eliminar suscripción | `/subscription/del` |
 
 ### El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git.
-[Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
+- [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
 
 ### La página deberá subirse a un servidor on-line para poder ser navegada por el Docente.
-[Visita nuestra versión navegable del backend](PENDIENTE!!!)
+- [Visita nuestra versión navegable del backend](PENDIENTE!!!)
 
 ### Se valorará la aplicación de un token o método de autenticación.
 Implementamos JSON Web Tokens (JWT) con el módulo **jsonwebtoken**
 
 ### El backend debe estar integrado con un frontend
-[Visita nuestra versión navegable del frontend integrado con el backend](https://grupo14.netlify.app/)
+- [Visita nuestra versión navegable del frontend integrado con el backend](https://grupo14.netlify.app/)
