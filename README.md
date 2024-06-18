@@ -36,9 +36,9 @@ npm install jsonwebtoken
 ### Se debe poder acceder a los registros de la tabla (GET)
 | Metodo | Descripción | Ruta |
 | ------ | ------ | ------ |
-| **GET** | Indumentaria femenina | `/products/women` |
-| **GET** | Indumentaria masculina | `/products/men` |
-| **GET** | Promociones | `/promotions` |
+| **GET** | Obtener indumentaria femenina | `/products/women` |
+| **GET** | Obtener indumentaria masculina | `/products/men` |
+| **GET** | Obtener promociones | `/promotions` |
 
 ### Se debe poder realizar borrado físico de los datos. (DELETE)
 | Metodo | Descripción | Ruta |
