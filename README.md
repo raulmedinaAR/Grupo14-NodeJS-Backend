@@ -49,7 +49,7 @@ npm install jsonwebtoken
 [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
 
 ### La página deberá subirse a un servidor on-line para poder ser navegada por el Docente.
-[Visita nuestra versión navegable](PENDIENTE!!!)
+[Visita nuestra versión navegable del backend](PENDIENTE!!!)
 
 ### Se valorará la aplicación de un token o método de autenticación.
 Implementamos JSON Web Tokens (JWT) con el módulo **jsonwebtoken**
