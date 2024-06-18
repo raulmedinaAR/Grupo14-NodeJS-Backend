@@ -52,7 +52,7 @@ npm install jsonwebtoken
 - [Visita nuestra versión navegable del backend](PENDIENTE!!!)
 
 ### Se valorará la aplicación de un token o método de autenticación.
-Implementamos JSON Web Tokens (JWT) con el módulo **jsonwebtoken**
+Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`
 
 ### El backend debe estar integrado con un frontend
 - [Visita nuestra versión navegable del frontend integrado con el backend](https://grupo14.netlify.app/)
