@@ -6,7 +6,7 @@
 - José Luís Claros (claros.vilca@gmail.com)
 - Raúl Medina (raul@medina.net.ar)
 
-### Módulos utilizados
+## Módulos utilizados
 ```sh
 npm install express
 npm install mysql2
