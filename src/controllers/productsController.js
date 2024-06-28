@@ -20,6 +20,7 @@ const getProducts =  (genderId, response) => {
     dbConnection.query(query, (error, results, fields) => {
         if (error) {
           console.error('ejecutando al consulta:', error);
+          response.status(501).send('Error Interno de la BD');
           return;
         }
 
