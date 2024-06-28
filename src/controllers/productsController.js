@@ -1,10 +1,10 @@
 const dbConnection = require('../db/db');
 
 const GENDER_MEN   = 1;
-const GENDER_WOMEN = 2;
+const GENDER_WOMAN = 2;
 
 const getProductsMen   = (request, response)=> getProducts(GENDER_MEN, response);
-const getProductsWoman = (request, response) => getProducts(GENDER_WOMEN, response);
+const getProductsWoman = (request, response) => getProducts(GENDER_WOMAN, response);
 
 const getProducts =  (genderId, response) => {
     const query = `
