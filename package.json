@@ -1,0 +1,24 @@
+{
+  "name": "grupo14-nodejs-backend",
+  "version": "1.0.0",
+  "description": "Grupo14",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --watch ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend.git"
+  },
+  "author": "Grupo14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend/issues"
+  },
+  "homepage": "https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.1"
+  }
+}
