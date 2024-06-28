@@ -19,7 +19,7 @@ npm install jsonwebtoken
 
 ![DER](./img/der.png)
 
-Los script de generación de la base de datos se encuntran en el repositorio en la carpeta `/src/db/scripts`.
+Los scripts de generación de la base de datos se encuntran en el repositorio en la carpeta `/src/db/scripts`.
 
 ### 2) Entre las tablas al menos deberá haber una relación "uno a muchos".
 
