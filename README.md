@@ -38,7 +38,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 ### 5) Se debe poder acceder a los registros de la tabla (GET)
 | Metodo | Descripción | Ruta |
 | ------ | ------ | ------ |
-| **GET** | Obtener indumentaria femenina | `/products/women` |
+| **GET** | Obtener indumentaria femenina | `/products/woman` |
 | **GET** | Obtener indumentaria masculina | `/products/men` |
 | **GET** | Obtener promociones | `/promotions` |
 

@@ -1,7 +1,7 @@
 {
   "name": "grupo14-nodejs-backend",
   "version": "1.0.0",
-  "description": "Grupo14",
+  "description": "Codo a Codo - Curso 24122 - Grupo 14 - Backend",
   "main": "app.js",
   "scripts": {
     "test": "node --watch --env-file=.env ./src/app.js"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend.git"
   },
-  "author": "Grupo14",
+  "author": "Grupo 14, Curso 24122",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend/issues"
