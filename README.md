@@ -10,6 +10,7 @@
 ```sh
 npm install express
 npm install mysql2
+npm install node-mailjet
 npm install jsonwebtoken
 ```
 

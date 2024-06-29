@@ -3,10 +3,10 @@ const dbConnection = require('../db/db');
 const GENDER_MEN   = 1;
 const GENDER_WOMAN = 2;
 
-const getProductsMen   = (request, response)=> getProducts(GENDER_MEN, response);
+const getProductsMen   = (request, response) => getProducts(GENDER_MEN  , response);
 const getProductsWoman = (request, response) => getProducts(GENDER_WOMAN, response);
 
-const getProducts =  (genderId, response) => {
+const getProducts = (genderId, response) => {
     const query = `
     SELECT p.id, p.name, p.price, p.discountPrice, p.isNew, p.genderId, p.mainImage, p.secondaryImage, 
         GROUP_CONCAT(c.color) AS colors 
