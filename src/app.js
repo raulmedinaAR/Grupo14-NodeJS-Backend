@@ -3,8 +3,12 @@ const app = express();
 
 const productsRoutes = require('./routes/productsRoutes');
 
-app.use('/prueba', (request,response) =>{
-    response.status(200).send('servidor activo');
+app.use('/', (request, response) => {
+    response.status(200).send('<br><br><br><h1><center><b>Servidor activo!!!</b></center></h1>');
+});
+
+app.use('/version', (request, response) => {
+    response.status(200).json({ version: packageJson.version });
 });
 
 app.use('/products', productsRoutes);
