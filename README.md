@@ -41,7 +41,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 | ------ | ------ | ------ |
 | **GET** | Obtener indumentaria femenina | `/products/woman` |
 | **GET** | Obtener indumentaria masculina | `/products/men` |
-| **GET** | Obtener promociones | `/promotions` |
+| **GET** | Obtener promociones | `/promotions/get` |
 
 ### 6) Se debe poder realizar borrado físico de los datos. (DELETE)
 | Metodo | Descripción | Ruta |
