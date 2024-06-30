@@ -13,7 +13,7 @@ app.use('/version', (request, response) => {
 });
 
 app.use('/', (request, response) => {
-    response.status(200).send('<br><br><br><h1><center><b>Servidor activo!!!</b></center></h1>');
+    response.status(200).send(`<br><br><br><center><h1><b>Servidor activo!!!</b></h1><h3>${request.method}:&nbsp;&nbsp;&nbsp;${request.url}</h3></center>`);
 });
 
 const PORT = process.env.SERVER_PORT || 3030;

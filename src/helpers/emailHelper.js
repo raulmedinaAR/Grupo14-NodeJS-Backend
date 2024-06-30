@@ -28,4 +28,24 @@ const sendEmailHtml = (emailFrom, nameFrom, emailTo, nameTo, subject, htmlConten
         .catch((err) => error(err));
 };
 
+/*
+   // EJEMPLO DE ENVIO DE EMAIL
+
+    require('./helpers/emailHelper').sendEmailHtml
+    (
+        'raul.medina@gmail.com', 
+        'Servidor', 
+        'raul@medina.net.ar', 
+        'Raul el que recibe', 
+        'Respuesta del servidor', 
+        `<br><br><br><h1><center><b>Servidor activo!!!</b></center></h1>`, // Cuerpo del email
+        (result) => {
+            confirm.log('Email enviado correctamente', result);
+        }, 
+        (error) => {
+            console.log('Error al enviar el email.', error);
+        }
+    );
+*/
+
 module.exports = { sendEmailHtml };
