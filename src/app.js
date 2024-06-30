@@ -1,6 +1,8 @@
 const packageJson = require('../package.json');
 const express = require('express');
-const app     = express();
+const app = express();
+
+app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
 
 const productsRoutes = require('./routes/productsRoutes');
 const tokenRoutes    = require('./routes/tokenRoutes');
