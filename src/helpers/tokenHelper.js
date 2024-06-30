@@ -1,9 +1,7 @@
-const jwt = require('jsonwebtoken');
-
-// node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+const jwt       = require('jsonwebtoken');
 const secretKey = process.env.TOKEN_SECRET_KEY;
 
-function authenticateToken(req, res, next) {
+const authenticateToken = (req, res, next) => {
     const token = req.headers['authorization'];
     if (!token) return res.sendStatus(401); // No llegó token => 401: No autorizado
   
@@ -14,8 +12,8 @@ function authenticateToken(req, res, next) {
     });
 }
 
-function newToken(userData, hours) {
-    return jwt.sign(userData, secretKey, { expiresIn: `${hours}h` }); // Token expira en [hours] hora
+const newToken = (userData, hours) => {
+  return jwt.sign(userData, secretKey, { expiresIn: `${hours}h` }); // Token expira en [hours] hora
 }
 
 module.exports = { authenticateToken, newToken };
