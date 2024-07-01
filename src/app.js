@@ -4,10 +4,14 @@ const app = express();
 
 app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
 
-const productsRoutes = require('./routes/productsRoutes');
-const tokenRoutes    = require('./routes/tokenRoutes');
+const productsRoutes      = require('./routes/productsRoutes');
+const promotionsRoutes    = require('./routes/promotionsRoutes');
+const subscriptionsRoutes = require('./routes/subscriptionsRoutes');
+const tokenRoutes         = require('./routes/tokenRoutes');
 
 app.use('/products', productsRoutes);
+app.use('/promotions', promotionsRoutes);
+app.use('/subscription', subscriptionsRoutes);
 app.use('/token', tokenRoutes);
 
 app.use('/version', (request, response) => {

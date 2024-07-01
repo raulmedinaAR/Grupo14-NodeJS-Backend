@@ -27,26 +27,27 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 - Ver imagen anterior
 
 ### 3) A través del servidor levantado con Node y Express se debe poder realizar al menos un tipo de alta. (POST)
-| Metodo | Descripción | Ruta |
-| ------ | ------ | ------ |
-| **POST** | Agregar suscripción | `/subscription/add` |
+| Método | Descripción | Ruta | Body | Back | Front |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| **POST** | Agregar suscripción | `/subscription/add` | {"email": "raul2@medina.net.ar"} | &#x2714; | |
 
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
-| Metodo | Descripción | Ruta |
-| ------ | ------ | ------ |
-| **PUT** | Modificar suscripción | `/subscription/upd` |
+| Método | Descripción | Ruta | Body | Back | Front |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| **PUT** | Modificar suscripción | `/subscription/upd` | {"email": "raul@medina.net.ar", "updateCode": 1} | &#x2714; | |
 
 ### 5) Se debe poder acceder a los registros de la tabla (GET)
-| Metodo | Descripción | Ruta |
-| ------ | ------ | ------ |
-| **GET** | Obtener indumentaria femenina | `/products/woman` |
-| **GET** | Obtener indumentaria masculina | `/products/men` |
-| **GET** | Obtener promociones | `/promotions/get` |
+| Método | Descripción | Ruta | Back | Front |
+| ------ | ------ | ------ | ------ | ------ |
+| **GET** | Obtener indumentaria femenina | `/products/woman` | &#x2714; |  |
+| **GET** | Obtener indumentaria masculina | `/products/men` | &#x2714; |  |
+| **GET** | Obtener promociones | `/promotions/get` | &#x2714; | |
+| **GET** | Obtener nuevo token | `/token/new` | &#x2714; |  |
 
 ### 6) Se debe poder realizar borrado físico de los datos. (DELETE)
-| Metodo | Descripción | Ruta |
-| ------ | ------ | ------ |
-| **DELETE** | Eliminar suscripción | `/subscription/del` |
+| Método | Descripción | Ruta | Body | Back | Front |
+| ------ | ------ | ------ | ------ | ------ | ------ |
+| **DELETE** | Eliminar suscripción | `/subscription/del` | {"email": "raul@medina.net.ar"} | &#x2714; | |
 
 ### 7) El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git.
 - [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
