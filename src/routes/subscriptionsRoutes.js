@@ -3,8 +3,8 @@ const {subscriptionAdd, subscriptionUpdate, subscriptionDelete} = require('../co
 
 const router = express.Router();
 
-router.post('/add', subscriptionAdd);
-router.put('/upd', subscriptionUpdate);
-router.delete('/del', subscriptionDelete);
+router.post('/', subscriptionAdd);
+router.put('/', subscriptionUpdate);
+router.delete('/', subscriptionDelete);
 
 module.exports = router;

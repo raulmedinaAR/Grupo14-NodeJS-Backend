@@ -3,6 +3,6 @@ const { getActivePromotions } = require('../controllers/promotionsController');
 
 const router = express.Router();
 
-router.get('/get', getActivePromotions);
+router.get('/', getActivePromotions);
 
 module.exports = router;
