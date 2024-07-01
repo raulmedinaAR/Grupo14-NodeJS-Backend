@@ -2,8 +2,9 @@
   "name": "grupo14-nodejs-backend",
   "version": "1.0.0",
   "description": "Codo a Codo - Curso 24122 - Grupo 14 - Backend",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
+    "start": "node ./src/app.js",
     "test": "node --watch --env-file=.env ./src/app.js"
   },
   "repository": {
