@@ -2,7 +2,7 @@ const dbConnection = require('../db/db');
 const { sendEmailHtml } = require('../helpers/emailHelper');
 
 const subscriptionAdd = (request, response) => {
-    const sql = `INSERT INTO grupo14.subscriptions (email, promotions, news) VALUES (?, 1, 1);`;
+    const sql = `INSERT INTO ${process.env.DB_NAME}.subscriptions (email, promotions, news) VALUES (?, 1, 1);`;
   
     if (request.body.email === undefined) {
         response.status(400).json({ message: 'No llego el email a suscribir.' });
@@ -27,13 +27,13 @@ const subscriptionUpdate = (request, response) => {
     
     switch(request.body.updateCode) {
         case 1: 
-            sql = `UPDATE grupo14.subscriptions SET promotions = 1, news = 0 WHERE email = ?;`;
+            sql = `UPDATE ${process.env.DB_NAME}.subscriptions SET promotions = 1, news = 0 WHERE email = ?;`;
             break;
         case 2: 
-            sql = `UPDATE grupo14.subscriptions SET promotions = 0, news = 1 WHERE email = ?;`;
+            sql = `UPDATE ${process.env.DB_NAME}.subscriptions SET promotions = 0, news = 1 WHERE email = ?;`;
             break;
         case 4: 
-            sql = `UPDATE grupo14.subscriptions SET promotions = 1, news = 1 WHERE email = ?;`;
+            sql = `UPDATE ${process.env.DB_NAME}.subscriptions SET promotions = 1, news = 1 WHERE email = ?;`;
             break;
 
         default:
@@ -56,7 +56,7 @@ const subscriptionUpdate = (request, response) => {
 };
 
 const subscriptionDelete = (request, response) => {
-    const sql = `DELETE FROM grupo14.subscriptions WHERE email = ?;`;
+    const sql = `DELETE FROM ${process.env.DB_NAME}.subscriptions WHERE email = ?;`;
   
     if (request.body.email === undefined) {
         response.status(400).json({ message: 'No llego el email a cancelar la suscripción.' });

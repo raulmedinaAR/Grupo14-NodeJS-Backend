@@ -10,9 +10,9 @@ const getProducts = (genderId, response) => {
     const query = `
     SELECT p.id, p.name, p.price, p.discountPrice, p.isNew, p.genderId, p.mainImage, p.secondaryImage, 
         GROUP_CONCAT(c.color) AS colors 
-    FROM           grupo14.products      AS p
-        INNER JOIN grupo14.productColors AS pc ON p.id = pc.productId 
-        INNER JOIN grupo14.colors        AS c  ON c.id = pc.colorId 
+    FROM           ${process.env.DB_NAME}.products      AS p
+        INNER JOIN ${process.env.DB_NAME}.productColors AS pc ON p.id = pc.productId 
+        INNER JOIN ${process.env.DB_NAME}.colors        AS c  ON c.id = pc.colorId 
     WHERE p.genderId IN (${genderId},3)
     GROUP BY p.id, p.name, p.price, p.discountPrice, p.isNew, p.genderId, p.mainImage, p.secondaryImage;
     `;

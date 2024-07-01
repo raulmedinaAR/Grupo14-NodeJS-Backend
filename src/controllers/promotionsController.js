@@ -3,7 +3,7 @@ const dbConnection = require('../db/db');
 const getActivePromotions = (request, response) => {
     const query = 
     `SELECT content
-    FROM grupo14.promotions
+    FROM ${process.env.DB_NAME}.promotions
     WHERE dateFrom <= CURDATE() AND DATE_ADD(dateUntil, INTERVAL 1 DAY) >= CURDATE()
     ORDER BY id;`;
 
