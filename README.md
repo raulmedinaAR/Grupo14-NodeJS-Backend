@@ -61,5 +61,5 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`
 
 ### 10) El backend debe estar integrado con un frontend
-- [Visita nuestra versión navegable del frontend integrado con el backend](https://grupo14.netlify.app/)
-- [Repositorio en GitHub del frontend conectado al backend](https://github.com/Glavilaro/Grupo_14_nodeJs.git)
+- [Visita nuestra versión navegable del frontend integrado al backend](https://grupo14.netlify.app/)
+- [Repositorio en GitHub del frontend integrado al backend](https://github.com/Glavilaro/Grupo_14_nodeJs.git)
