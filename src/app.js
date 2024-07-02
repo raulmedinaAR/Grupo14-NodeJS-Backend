@@ -1,19 +1,15 @@
 const packageJson = require('../package.json');
-const express = require('express');
-const cors = require('cors');
-const app = express();
-
-app.use(cors({
-    origin: 'http://127.0.0.1:5500',
-    methods: 'GET,POST,PUT,DELETE',
-    allowedHeaders: 'Content-Type,Authorization'
-  }));
-app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
+const express     = require('express');
+const cors        = require('cors');
 
 const productsRoutes      = require('./routes/productsRoutes');
 const promotionsRoutes    = require('./routes/promotionsRoutes');
 const subscriptionsRoutes = require('./routes/subscriptionsRoutes');
 const tokenRoutes         = require('./routes/tokenRoutes');
+
+const app = express();
+app.use(cors());
+app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
 
 app.use('/products', productsRoutes);
 app.use('/promotions', promotionsRoutes);

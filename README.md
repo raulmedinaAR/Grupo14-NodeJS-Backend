@@ -12,6 +12,7 @@ npm install express
 npm install mysql2
 npm install node-mailjet
 npm install jsonwebtoken
+npm install cors
 ```
 
 ## Criterios de evaluación:
@@ -40,9 +41,9 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 ### 5) Se debe poder acceder a los registros de la tabla (GET)
 | Método | Descripción | Ruta | Back | Front |
 | ------ | ------ | ------ | ------ | ------ |
-| **GET** | Obtener indumentaria femenina | `/products/woman` | &#x2714; |  |
-| **GET** | Obtener indumentaria masculina | `/products/men` | &#x2714; |  |
-| **GET** | Obtener promociones | `/promotions` | &#x2714; | |
+| **GET** | Obtener indumentaria femenina | `/products/woman` | &#x2714; | &#x2714;  |
+| **GET** | Obtener indumentaria masculina | `/products/men` | &#x2714; | &#x2714;  |
+| **GET** | Obtener promociones | `/promotions` | &#x2714; | &#x2714; |
 | **GET** | Obtener nuevo token | `/token/new` | &#x2714; |  |
 
 ### 6) Se debe poder realizar borrado físico de los datos. (DELETE)
@@ -54,7 +55,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 - [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
 
 ### 8) La página deberá subirse a un servidor on-line para poder ser navegada por el Docente.
-- [Visita nuestra versión navegable del backend](PENDIENTE!!!)
+- [Visita nuestra versión navegable del backend](https://grupo14.alwaysdata.net/)
 
 ### 9) Se valorará la aplicación de un token o método de autenticación.
 Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`

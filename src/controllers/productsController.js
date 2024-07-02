@@ -36,7 +36,7 @@ const getProducts = (genderId, response) => {
               novedad: product.isNew
             };
         });
-        response.send(JSON.stringify(productsJSON, null, 2));
+        response.status(200).json(productsJSON);
     });
 };
 
