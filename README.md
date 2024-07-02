@@ -36,7 +36,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
 | Método | Descripción | Ruta | Body | Back | Front |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| **PUT** | Modificar suscripción | `/subscription` | {"email": "raul@medina.net.ar", "updateCode": 1} | &#x2714; | #x2714; |
+| **PUT** | Modificar suscripción | `/subscription` | {"email": "raul@medina.net.ar", "updateCode": 1} | &#x2714; | &#x2714; |
 
 ### 5) Se debe poder acceder a los registros de la tabla (GET)
 | Método | Descripción | Ruta | Back | Front |
