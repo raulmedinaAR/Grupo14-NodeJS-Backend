@@ -60,6 +60,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 ### 9) Se valorará la aplicación de un token o método de autenticación.
 - Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`.
 - Cuando ingresamos a la página principal el frontend solicita un token al backend y lo guarda en el localStorage como se puede observar en la siguiente imagen:
+
 ![DER](./img/token.png)
 
 ### 10) El backend debe estar integrado con un frontend
