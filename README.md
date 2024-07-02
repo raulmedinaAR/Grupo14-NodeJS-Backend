@@ -30,7 +30,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 ### 3) A través del servidor levantado con Node y Express se debe poder realizar al menos un tipo de alta. (POST)
 | Método | Descripción | Ruta | Body | Back | Front |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| **POST** | Agregar suscripción | `/subscription` | {"email": "raul2@medina.net.ar"} | &#x2714; | &#x2714; |
+| **POST** | Agregar suscripción | `/subscription` | {"email": "raul@medina.net.ar"} | &#x2714; | &#x2714; |
 | **POST** | Agregar contacto | `/contact` |  |  |  |
 
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
