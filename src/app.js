@@ -8,7 +8,11 @@ const subscriptionsRoutes = require('./routes/subscriptionsRoutes');
 const tokenRoutes         = require('./routes/tokenRoutes');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: 'https://grupo14.netlify.app/',
+    methods: 'GET,POST,PUT,DELETE',
+    allowedHeaders: 'Content-Type,Authorization'
+}));
 app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
 
 app.use('/products', productsRoutes);
