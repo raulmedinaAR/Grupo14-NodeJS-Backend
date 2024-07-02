@@ -58,7 +58,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 - [Visita nuestra versión navegable del backend](https://grupo14.alwaysdata.net/)
 
 ### 9) Se valorará la aplicación de un token o método de autenticación.
-Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`
+- Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`
 
 ### 10) El backend debe estar integrado con un frontend
 - [Visita nuestra versión navegable del frontend integrado al backend](https://grupo14.netlify.app/)
