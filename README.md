@@ -52,7 +52,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 | **DELETE** | Eliminar suscripción | `/subscription` | {"email": "raul@medina.net.ar"} | &#x2714; | &#x2714; |
 
 ### 7) El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git.
-- [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend-Old.git)
+- [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend.git)
 
 ### 8) La página deberá subirse a un servidor on-line para poder ser navegada por el Docente.
 - [Visita nuestra versión navegable del backend](https://grupo14.alwaysdata.net/)
@@ -62,3 +62,4 @@ Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`
 
 ### 10) El backend debe estar integrado con un frontend
 - [Visita nuestra versión navegable del frontend integrado con el backend](https://grupo14.netlify.app/)
+- [Repositorio en GitHub del frontend conectado al backend](https://github.com/Glavilaro/Grupo_14_nodeJs.git)
