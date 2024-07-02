@@ -61,7 +61,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 - Implementamos JSON Web Tokens (JWT) con el módulo `jsonwebtoken`.
 - Cuando ingresamos a la página principal el frontend solicita un token al backend y lo guarda en el localStorage como se puede observar en la siguiente imagen:
 
-![DER](./img/token.png)
+![TOKEN](./img/token.png)
 
 ### 10) El backend debe estar integrado con un frontend
 - [Visita nuestra versión navegable del frontend integrado al backend](https://grupo14.netlify.app/)
