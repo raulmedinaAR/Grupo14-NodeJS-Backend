@@ -1,7 +1,9 @@
 const packageJson = require('../package.json');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
+app.use(cors());
 app.use(express.json()); // Middleware para parsear las solicitudes entrantes JSON
 
 const productsRoutes      = require('./routes/productsRoutes');
