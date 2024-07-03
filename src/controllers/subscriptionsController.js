@@ -69,14 +69,14 @@ const subscriptionDelete = (request, response) => {
                 return;
             }
             response.status(200).json({ message: 
-                `Estimado cliente,
+                `Estimado cliente,<br><br>
 
 Confirmamos que a partir de este momento su dirección de correo electrónico ha sido removida de nuestra lista. Ud. dejará de recibir nuestras promociones y novedades!
-
+<br><br>
 Agradecemos el tiempo que nos ha permitido estar en contacto y cualquier comentario que nos pueda hacer llegar para optimizar nuestras comunicaciones.
-
+<br><br>
 Muchas Gracias,
-Cuervo Indumentaria`
+Cuervo Indumentaria<br>`
              });
         });
     }
