@@ -1,11 +1,13 @@
 const packageJson = require('../package.json');
-const express     = require('express');
-const cors        = require('cors');
+const express = require('express');
+const cors = require('cors');
 
-const productsRoutes      = require('./routes/productsRoutes');
-const promotionsRoutes    = require('./routes/promotionsRoutes');
+
+const productsRoutes = require('./routes/productsRoutes');
+const promotionsRoutes = require('./routes/promotionsRoutes');
 const subscriptionsRoutes = require('./routes/subscriptionsRoutes');
-const tokenRoutes         = require('./routes/tokenRoutes');
+const tokenRoutes = require('./routes/tokenRoutes');
+const formRoutes = require('./routes/formRoutes');
 
 const app = express();
 app.use(cors());
@@ -15,6 +17,7 @@ app.use('/products', productsRoutes);
 app.use('/promotions', promotionsRoutes);
 app.use('/subscription', subscriptionsRoutes);
 app.use('/token', tokenRoutes);
+app.use('/form', formRoutes);
 
 app.use('/version', (request, response) => {
     response.status(200).json({ version: packageJson.version });
