@@ -19,7 +19,9 @@ npm install cors
 
 El siguiente archivo JSON ha sido exportado desde Postman y contiene todos los datos necesarios para realizar pruebas. Solo debe importar este archivo en Postman para acceder a las solicitudes de prueba preconfiguradas.
 
-`https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend/blob/main/testData/postman_collection.json`
+```sh
+https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend/blob/main/testData/postman_collection.json
+```
 
 ## Criterios de evaluación:
 
