@@ -41,9 +41,8 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 | **POST** | Agregar suscripción | `/subscription` | {"email": "raul@medina.net.ar"} | &#x2714; | &#x2714; |
 | **POST** | Agregar contacto | `/form` | {"nombre":"Raul", "email":"raul@medina.net.ar", "telefono":"1122334455", "fecha_nacimiento":"2024-01-21", "tipo_consulta":1, "formas_de_contacto":2, "comentarios":"Buenas tardes, quería consultar por el precio mayorista de las prendas de mujer" } | &#x2714; | &#x2714; |
 
-> **📝 Nota:** 
-    Al realizarse la suscripción correctamente envía un email explicando los detalles de esta suscripción y la forma de cancelarla.
-    Al enviarse el formulario de contacto también enviar un email confirmando que el contacto fue exitoso y mostrando todos los datos del mismo.
+> **📝 Nota 1:** Al realizarse la suscripción correctamente envía un email explicando los detalles de esta suscripción y la forma de cancelarla.
+> **📝 Nota 2:** Al enviarse el formulario de contacto también enviar un email confirmando que el contacto fue exitoso y mostrando todos los datos del mismo.
 
 
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
