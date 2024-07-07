@@ -15,6 +15,14 @@ npm install jsonwebtoken
 npm install cors
 ```
 
+## Postman Test Data
+
+- El siguiente archivo JSON ha sido exportado desde Postman y contiene todos los datos necesarios para realizar pruebas con Postman. Solo debe importar este archivo en Postman para acceder a las solicitudes de prueba preconfiguradas.
+
+- `https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend.git`
+
+- [Repositorio en GitHub](https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend.git)
+
 ## Criterios de evaluación:
 
 ### 1) La base de datos debe desarrollarse com MySQL, tener al menos 4 tablas, con al menos 4 diferentes tipos de datos.
@@ -31,7 +39,7 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 | Método | Descripción | Ruta | Body | Back | Front |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | **POST** | Agregar suscripción | `/subscription` | {"email": "raul@medina.net.ar"} | &#x2714; | &#x2714; |
-| **POST** | Agregar contacto | `/contact` |  |  |  |
+| **POST** | Agregar contacto | `/form` |  | &#x2714; | &#x2714; |
 
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
 | Método | Descripción | Ruta | Body | Back | Front |
