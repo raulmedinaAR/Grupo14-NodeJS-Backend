@@ -14,7 +14,6 @@ function procesarFormulario(req, res) {
                 return;
             }
 
-
             const asunto = 'Gracias por contactarnos';
             const cuerpo = `
                 <p>Hola ${nombre},</p>
@@ -31,10 +30,10 @@ function procesarFormulario(req, res) {
                     <li>Comentarios: ${comentarios}</li>
                 </ul>
                 <p>¡Gracias nuevamente!</p>
-                <p> <img src="https://grupo14.netlify.app/img/LogoCuervoIndumentaria.png" alt="logo"></p>
+                <center> <img src="https://grupo14.netlify.app/img/LogoCuervoIndumentaria.png" alt="logo"></center>
             `;
-
-            sendEmailHtml(email, asunto, cuerpo,
+            
+            sendEmailHtml(email, '', asunto, cuerpo,
                 (result) => {
                     console.log('Email enviado correctamente', result);
                 },
