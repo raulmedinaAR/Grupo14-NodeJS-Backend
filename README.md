@@ -15,6 +15,14 @@ npm install jsonwebtoken
 npm install cors
 ```
 
+## Postman Test Data
+
+El siguiente archivo JSON ha sido exportado desde Postman y contiene todos los datos necesarios para realizar pruebas. Solo debe importar este archivo en Postman para acceder a las solicitudes de prueba preconfiguradas.
+
+```sh
+https://github.com/raulmedinaAR/Grupo14-NodeJS-Backend/blob/main/testData/postman_collection.json
+```
+
 ## Criterios de evaluación:
 
 ### 1) La base de datos debe desarrollarse com MySQL, tener al menos 4 tablas, con al menos 4 diferentes tipos de datos.
@@ -31,7 +39,11 @@ Los scripts de generación de la base de datos se encuntran dentro del repositor
 | Método | Descripción | Ruta | Body | Back | Front |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | **POST** | Agregar suscripción | `/subscription` | {"email": "raul@medina.net.ar"} | &#x2714; | &#x2714; |
-| **POST** | Agregar contacto | `/contact` |  |  |  |
+| **POST** | Agregar contacto | `/form` | {"nombre":"Raul", "email":"raul@medina.net.ar", "telefono":"1122334455", "fecha_nacimiento":"2024-01-21", "tipo_consulta":1, "formas_de_contacto":2, "comentarios":"Buenas tardes, quería consultar por el precio mayorista de las prendas de mujer" } | &#x2714; | &#x2714; |
+
+> **📝 Nota 1:** Al realizarse la suscripción correctamente envía un email explicando los detalles de esta suscripción y la forma de cancelarla.
+> **📝 Nota 2:** Al enviarse el formulario de contacto también enviar un email confirmando que el contacto fue exitoso y mostrando todos los datos del mismo.
+
 
 ### 4) De la misma forma se debe poder realizar modificaciones de los registros. (PUT)
 | Método | Descripción | Ruta | Body | Back | Front |

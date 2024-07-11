@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "169720c3-a301-46c0-a5f3-96d4cc7523d4",
+		"name": "CAC - Node.JS - Grupo 14",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2080163"
+	},
+	"item": [
+		{
+			"name": "POST: /subscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"raulmedinademo@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/subscription",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"subscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST: /form",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nombre\":\"Raul\", \"email\":\"raul@medina.net.ar\", \"telefono\":\"1122334455\", \"fecha_nacimiento\":\"1974-01-21\", \"tipo_consulta\":1, \"formas_de_contacto\":2, \"comentarios\":\"Buenas tardes, quería consultar por el precio mayorista de las prendas de mujer\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/form",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"form"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT: /subscription",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"raulmedinademo@gmail.com\", \"updateCode\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/subscription",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"subscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE: /subscription",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"raulmedinademo@gmail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/subscription",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"subscription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET: /products/men",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/products/men",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"products",
+						"men"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET: /products/woman",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/products/woman",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"products",
+						"woman"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET: /promotions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/promotions",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"promotions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET: /token/new",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://grupo14.alwaysdata.net/token/new",
+					"protocol": "https",
+					"host": [
+						"grupo14",
+						"alwaysdata",
+						"net"
+					],
+					"path": [
+						"token",
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
