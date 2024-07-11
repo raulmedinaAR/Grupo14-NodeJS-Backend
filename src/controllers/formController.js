@@ -20,7 +20,7 @@ function procesarFormulario(req, res) {
                 <p>Hola ${nombre},</p>
                 <p>Gracias por ponerte en contacto con nosotros. Hemos recibido tu consulta y nos pondremos en contacto contigo pronto.</p>
                 <p>Detalles de tu consulta:</p>
-                <h1 style="color:black; text-align: center;">CUERVO INDUMENTARIA</h1>
+                <h1 style="color:red; text-align: center;">CUERVO INDUMENTARIA</h1>
                 <ul>
                     <li>Nombre: ${nombre}</li>
                     <li>Email: ${email}</li>
